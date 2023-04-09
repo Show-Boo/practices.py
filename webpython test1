@@ -1,0 +1,30 @@
+"""
+def func(msg, **kwargs):
+    print(msg)
+    print(kwargs)
+
+func("Hi", name="Park",age=20)
+
+
+
+print(__name__)
+"""
+
+def plus_one(n):
+    print(f"n is not {n} anymore")
+    n+=1
+    print(f"n is {n} from now")
+    return n
+
+result = plus_one(1)
+print(result)
+
+
+L = [3,1,2]
+result = L.pop(-1)
+print(L)
+print(result)
+
+
+def function1(L):
+    
